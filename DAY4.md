@@ -48,3 +48,6 @@ HashSet is backed by a HashMap. When you add an element to the HashSet, it is in
 
 HASHSET IS NOT  THREAD SAFE (ITS NOT SYNCHRONIZED)   
 
+
+While the average time complexity is O(1), in a worst-case scenario, where all elements hash to the same bucket (due to a poorly implemented hash function or malicious input), the operations can degrade to O(n).
+
