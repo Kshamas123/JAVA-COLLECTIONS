@@ -31,3 +31,5 @@ LinkedHashSet uses a LinkedHashMap under the hood:
 private transient LinkedHashMap<E,Object> map;
 
 Each element you add becomes a key in the LinkedHashMap with a dummy value (PRESENT), just like HashSet, but insertion order is recorded using a linked list.
+
+LinkedHashSet is not thread-safe by default
